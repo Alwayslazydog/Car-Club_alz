@@ -281,6 +281,12 @@ section {
 padding-top: 90px;
 padding-bottom: 90px;
 }
+#about {
+  background-image: url(../img/background.jpg);
+}
+.joinus {
+  background-image: url(../img/background2.jpg);
+}
 #footer {padding-top: 80px; padding-bottom: 70px;}
 #mainslider {padding: 0;}
 #land {padding-top: 0;}
@@ -815,6 +821,66 @@ bottom:0;
 }
 
 /*parallax*/
+.parallax2 {
+  background-attachment: fixed !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .parallax2 {
+    -webkit-background-size: auto auto !important;
+    -moz-background-size: auto auto !important;
+    -o-background-size: auto auto !important;
+    background-size: auto auto !important;
+  }
+}
+@font-face {
+  font-family: 'iconfont';  /* project id："186860" */
+  src: url('//at.alicdn.com/t/font_4wpy3cp2xbtymn29.eot');
+  src: url('//at.alicdn.com/t/font_4wpy3cp2xbtymn29.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_4wpy3cp2xbtymn29.woff') format('woff'),
+  url('//at.alicdn.com/t/font_4wpy3cp2xbtymn29.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_4wpy3cp2xbtymn29.svg#iconfont') format('svg');
+}
+@font-face {
+font-family: “iconfont”;
+src:url(‘../fonts/iconfont.eot’), /* IE9*/
+url(‘../fonts/iconfont.eot’) format(’embedded-opentype’), /* IE6-IE8 */
+url(‘../fonts/iconfont.woff’) format(‘woff’), /* chrome, firefox */
+url(‘../fonts/iconfont.ttf’) format(‘truetype’), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+url(‘../fonts/iconfont.svg’) format(‘svg’); /* iOS 4.1- */
+}
+.iconfont{font-family:"iconfont";
+font-size:16px;font-style:normal;}
+.fadeInUp {
+    z-index:50;
+}
+.video_ul {
+    padding-left: 180px;
+}
+.video_li {
+    padding-top: 60px;
+    font-size: 2.9rem;
+    font-family: "microsoft yahei";
+    color:white;
+    z-index: 10000;
+}
+.parallax2:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  z-index: 1;
+}
 .parallax {
 position: relative;
 overflow: hidden;
@@ -1308,6 +1374,7 @@ max-width: 270px;
         padding: 0 0 3px;
     }
 }
+
 
 /*** gallery ***/
 ul#portfolioContainer {
