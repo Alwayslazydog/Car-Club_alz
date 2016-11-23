@@ -1,0 +1,4 @@
+String.prototype.escNone=function(){return this.toString()};
+
+var strHtml='<div class="row"><a class="navbar-brand" href="#"> <span class="glyphicon glyphicon-signal"></span> The <strong>CarClub</strong></a><div class="col-sm-12 mainmenu_wrap"><div class="main-menu-icon visible-xs"><span></span><span></span><span></span></div><nav><ul id="mainmenu" class="menu sf-menu responsive-menu superfish"><li class="active"><a href="./index.html">首页</a></li><li class="dropdown"><a href="#">关于我们</a><ul class="dropdown-menu"><li class=""><a href="./about.html">公司背景<li class=""><a href="./carpark.html">场地介绍</a></li></ul></li><li class=""><a href="#">精彩视频</a></li><li class="dropdown"><a href="#">合作伙伴</a><ul class="dropdown-menu"><li class=""><a href="./blog.html">合作伙伴</a></li><li class=""><a href="./blog-single.html">媒体支持</a></li></ul></li><li class=""><a href="./contact.html">联系我们</a></li></ul></nav></div></div></div>';
+document.write(strHtml.escNone());

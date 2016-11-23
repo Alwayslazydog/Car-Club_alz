@@ -59,57 +59,7 @@
 
     <header id="header" class="dark_section">
         <div class="container">
-            <div class="row">
-
-                <a class="navbar-brand" href="#">
-                    <span class="glyphicon glyphicon-signal"></span> The <strong>CarClub</strong>
-                </a>
-
-                <div class="col-sm-12 mainmenu_wrap">
-                    <div class="main-menu-icon visible-xs"><span></span><span></span><span></span></div>
-
-                    <nav>
-                        <ul id="mainmenu" class="menu sf-menu responsive-menu superfish">
-                            <li class="active">
-                                <a href="#">首页</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">关于我们</a>
-                                <ul class="dropdown-menu">
-                                    <li class="">
-                                        <a href="./about.html">公司背景</a>
-                                    </li>
-                                    <li class="">
-                                        <a href="./active.html">活动介绍</a>
-                                    </li>
-                                    <li class="">
-                                        <a href="./carpark.html">场地介绍</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="">
-                                <a href="#">精彩视频</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">合作伙伴</a>
-                                <ul class="dropdown-menu">
-                                    <li class="">
-                                        <a href="./blog.html">合作伙伴</a>
-                                    </li>
-                                    <li class="">
-                                        <a href="./blog-single.html">媒体支持</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="">
-                                <a href="./contact.html">联系我们</a>
-                            </li>
-
-                        </ul>
-                    </nav>
-                </div>
-
-            </div>
+                    <script type="text/javascript" src="./js/navbar.js"></script>
         </div>
     </header>
 
@@ -126,15 +76,12 @@
                 </div>
                 <div class="col-sm-9">
                     <h3>强大的资源背景</h3>
-                    <p>
-                      <spanzzz>|</span>  深圳市三源色文化传播有限公司（以下简称 三源色）2004年成立于深圳，是中国汽车试驾基地的专业运营商，提供专业的试驾基地，并提供一站式试驾解决方案，助力打造更刺激的汽车线下营销活动，推动中国汽车电商发展。
-                    </p>
-                    <p>
-                       <spanzzz>|</span>  三源色旗下70大专业试驾基地覆盖全国47个核心城市，各基地具备汽车试驾、越野体验、新车发布及汽车培训等多样功能，已成为国内基地数量多、地域覆盖广、服务内容多元的汽车试驾运营商。
-                    </p>
-                    <p>
-                    <spanzzz>|</span>     各基地配备全套越野器械，其中17项标准化专业越野器械为三源色研发，6项越野器械获得国家发明专利，借助这些器械，实现更加深入有效的试驾体验。
-                        </p>
+                    <p class="aboutPassage">
+                        <span class="aboutOurClub">|</span> 三源色集团，2004年成立于深圳，是国内基地数量多(目前73)、地域覆盖广、服务内容多元的汽车试驾运营商，三源色车友俱乐部是三源色文化传播有限公司旗下一个独立运营的车友服务部门。</p>
+                    <p class="aboutPassage">
+                        <span class="aboutOurClub">|</span> 旗下有商务合作部，招商部，用户运营部以及新媒体运营组为全国车友俱乐部及车友服务。自2015年1月15日成立以来，逐渐建立了拥有60万粉丝的微信公众号自媒体推广平台。集线上直播资源，撩车友APP，试驾、赛车、越野场地等一站式车友服务渠道。</p>
+                    <p class="aboutPassage">
+                        <span class="aboutOurClub">|</span> 2016年5月三源色车友会荣获“全国十佳汽车俱乐部”等荣誉称号。目前，三源色车友俱乐部与全国上百家车友会达成战略合作关系，吸引到5000万车友的关注。</p>
                 </div>
 
             </div>
@@ -142,30 +89,32 @@
         </div>
     </section>
     <section id="about" class="darkgrey_section parallax2">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 to_animate animated fadeInUp" style="visibility: hidden;">
-                <video poster="./img/videoPreLoad.png"   controls="controls" controls="controls"   preload="metadata" loop="loop" controls="controls" width="  100%" height=" "name="media"><source src="http://www.zhangxinxu.com/study/media/cat.mp4" type="video/ogg;codecs="theora,vorbis"" media="screen" />
-               </video>
-            </div>
-            <div class="col-sm-6 ">
-                <ul class="video_ul">
-                    <li class="video_li">
-                        1.大头吐槽视频
-                    </li>
-                    <li class="video_li">
-                        2.车友会线下活动
-                    </li>
-                    <li class="video_li">
-                        3.三源色试驾中心
-                    </li>
-                    <li class="video_li">
-                        4.查看更多
-                    </li>
-                </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 to_animate animated fadeInUp" style="visibility: hidden;">
+                    <!--<video poster="./img/loadVideo.png"   controls="controls" controls="controls"   preload="metadata" loop="loop" controls="controls" width="  100%" height=" "name="media"><source src="http://www.bilibili.com/video/av6647991/" type="video/ogg;codecs="theora,vorbis"" media="screen" />
+               </video>-->
+                    <iframe style="width:640px;height:390px;" src="http://static.hdslb.com/miniloader.swf?aid=6647991&page=1" scrolling="no"
+                        border="0" frameborder="no" framespacing="0"></iframe>
+                </div>
+                <div class="col-sm-6 ">
+                    <ul class="video_ul">
+                        <li class="video_li">
+                            1.大头吐槽视频
+                        </li>
+                        <li class="video_li">
+                            2.车友会线下活动
+                        </li>
+                        <li class="video_li">
+                            3.三源色试驾中心
+                        </li>
+                        <li class="video_li">
+                            4.查看更多
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
     </section>
 
 
@@ -175,7 +124,7 @@
                 <div class="block col-sm-3">
                     <h3>最 <strong>专业的</strong> 服务支持</h3>
                     <p>
-                       三源色汽车影院乃深圳首家汽车影院，地处香蜜湖度假村内，毗邻深南大道，地理位置优越，交通便利。影院为您提供私密的空间，独立的“包厢”，让您自由欣赏精彩的影片，汽车电影之自然，少了影院里的约束与窒息，在月光与星星的映衬下享受清凉冰爽的饮料，美味的爆米花，人生如此惬意。
+                        三源色汽车影院乃深圳首家汽车影院，地处香蜜湖度假村内，毗邻深南大道，地理位置优越，交通便利。影院为您提供私密的空间，独立的“包厢”，让您自由欣赏精彩的影片，汽车电影之自然，少了影院里的约束与窒息，在月光与星星的映衬下享受清凉冰爽的饮料，美味的爆米花，人生如此惬意。
                     </p>
                 </div>
                 <div class="col-sm-9 to_animate">
@@ -246,12 +195,10 @@
 
     <section id="info" class="grey_section parallax2 joinus">
         <div class="container">
-
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h2 class="block-header"> 加入<strong> 车友 </strong>会</h2>
-                    <p>您不仅可以加入成为我们俱乐部会员，而且您想在当地成立我们车友会的分会，您还可以选择加盟我们。
-                    </p>
+                    <h4>您不仅可以加入成为我们俱乐部会员，而且您想在当地成立我们车友会的分会，您还可以选择加盟我们。</h4>
                 </div>
             </div>
             <div class="row">
@@ -279,7 +226,6 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="block col-sm-4 to_animate" data-animation="fadeInLeft" data-delay="250">
                     <div class="single_teaser icons style1">
                         <div class="icons_introimg image-icon">
@@ -292,7 +238,6 @@
                         </p>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -349,62 +294,9 @@
             </div>
         </div>
     </section>
+ <script type="text/javascript" src="./js/footer.js"></script>
 
-
-    <footer id="footer" class="darkgrey_section">
-        <div class="container">
-            <div class="row">
-
-
-                <div class="block widget_tweet col-md-3 col-sm-4 to_animate" data-animation="fadeInRight">
-                    <h3>Contact US</h3>
-                    <p>
-                        <i class="iconfont">&#xe604;</i>
-                    </p>
-                </div>
-
-                <div class="block widget_text col-md-3 col-sm-4 to_animate" data-animation="fadeInRight">
-                    <h3>Text Widget</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora vitae itaque rem illo quidem animi!</p>
-                    <p>Reiciendis nemo hic, quae asperiores aliquid eius, pariatur provident quos fugit veniam recusandae excepturi,
-                        animi..
-                    </p>
-                </div>
-
-                <div class="block widget_text col-md-3 col-sm-4 to_animate" data-animation="fadeInRight">
-                    <h3>Contact Info</h3>
-                    <p>
-                        <i class="rt-icon-location"></i> 深圳市福田区文化创意园 F栋<br>
-                        <i class="rt-icon-megaphone"></i> +86 123 456 789 00<br>
-                        <i class="rt-icon-mail2"></i><a href="chen-hui@sunyathe.com">chen-hui@sunyathe.com</a><br>
-                        <i class="rt-icon-world"></i><a href="./">www.youCyou.com</a>
-                    </p>
-
-                </div>
-
-                <div class="block subscribe col-md-3 col-sm-4 to_animate" data-animation="fadeInRight">
-                    <h3>微信二维码</h3>
-                    <p>
-                        <img class=" col-md-8" src="./img/qrcode.png" alt="wechat QrCode">
-                    </p>
-                </div>
-
-            </div>
-        </div>
-    </footer>
-
-
-    <section id="copyright" class="dark_section">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-sm-12 text-center">
-                    &copy; Copyright - TheBest Template by <a href="http://modernbootstrapthemes.com">ModernBootstrapThemes</a>
-                </div>
-            </div>
-
-        </div>
-    </section>
+    
 
 
     <div class="preloader">
